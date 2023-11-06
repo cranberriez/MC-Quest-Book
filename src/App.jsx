@@ -20,7 +20,7 @@ function NavBar() {
             </a>
             <li id='search-element'>
                 <input placeholder='Search' name='search-bar'></input>
-                <SearchGlass style={{ height: '20px', fill: 'currentColor'}} alt="Magnifying Glass representing Search" />
+                <button><SearchGlass style={{ height: '20px', fill: 'currentColor'}} alt="Magnifying Glass representing Search" /></button>
             </li>
             <ul className='nav-element'>
                 <a href='/'>Categories</a>

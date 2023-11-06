@@ -22,6 +22,14 @@ function NavBar() {
                 <input placeholder='Search' name='search-bar'></input>
                 <SearchGlass style={{ height: '20px', fill: 'currentColor'}} alt="Magnifying Glass representing Search" />
             </li>
+            <ul className='nav-element'>
+                <a href='/'>Categories</a>
+                <a href='/'>New</a>
+                <a href='/'>Starred</a>
+            </ul>
+            <li>
+                Login
+            </li>
         </nav>
     )
 }

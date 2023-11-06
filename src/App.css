@@ -21,7 +21,7 @@
     list-style: none;
 
     display: grid;
-    grid-template-columns: 1fr 1fr 0.5fr 0.5fr;
+    grid-template-columns: 1fr 1fr 0.8fr 0.2fr;
     align-items: center;
 }
 
@@ -31,6 +31,7 @@
 
     height: 24px;
     text-decoration: none;
+    list-style: none;
 }
 
 #nav-logo {
@@ -53,5 +54,15 @@
 #search-element input {
     background-color: transparent;
     font-size: 1rem;
+    font-family: inherit;
+}
+
+ul.nav-element {
+    justify-content: space-around;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
     font-family: inherit;
 }

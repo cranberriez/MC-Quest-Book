@@ -1,69 +1,37 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color-scheme: dark light;
+  color: var(--primary-text-color);
+  background-color: var(--main-bg-color);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-}
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+  /* Main Background Color */
+  --main-bg-color: #121212; /* Deep Coal */
+
+  /* Menu Background Variations */
+  --menu-bg-dark-slate: #1C1C1C; /* Dark Slate */
+  --menu-bg-charcoal: #252525; /* Charcoal Grey */
+  --menu-bg-gunmetal: #2A2F3A; /* Gunmetal Grey */
+  --menu-bg-pewter: #333940; /* Darkened Pewter */
+
+  /* Text Colors */
+  --primary-text-color: #E0E0E0; /* Light Grey for primary text */
+  --secondary-text-color: #BBBBBB; /* Darker Grey for secondary text */
+
+  /* Accent Colors */
+  --accent-color-emerald: #2ecc71; /* Emerald Green */
+  --accent-color-lapis: #2980b9; /* Lapis Lazuli Blue */
+  --accent-color-redstone: #e74c3c; /* Redstone Red */
 }
 
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+    background-color: var(--main-bg-color);
+    color: var(--primary-text-color);
 }
